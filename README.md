@@ -7,7 +7,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ![](./design/mobile-design.jpg)
 
 ### Links
-- Live Site URL: [Github Pages](https://your-live-site-url.com)
+- Live Site URL: [Github Pages](https://omarotxoa.github.io/qr-code-component/)
 
 ### Process
 -  Having recently read about CUBE CSS and other such design systems and philosophies, I wanted to implement some of what I have learned. In particular, I wanted to use CSS Custom Properties and stay away from adding needless classes and media queries - keeping with the natural responsiveness of the browser and using elements to style as much as possible. 
