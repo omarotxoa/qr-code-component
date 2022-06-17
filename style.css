@@ -17,15 +17,12 @@ body {
     text-align: center;
 }
 
-body, main {
-    padding: 1em;
-}
-
 main {
     background-color: white;
     max-width: 15em;
     border-radius: 1em;
     animation: fadein 1.5s forwards;
+    padding: 1em;
 }
 
 main, footer {
