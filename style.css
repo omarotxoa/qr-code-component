@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap');
 
 :root {
-    --title-clr: #1F2F46;
-    --bg-clr: #D5E1EF;
-    --text-clr: #7D818C;
+    --title-clr: hsl(218, 44%, 22%);
+    --bg-clr: hsl(212, 45%, 89%);
+    --text-clr: hsl(220, 15%, 55%);
 }
 
 body {
