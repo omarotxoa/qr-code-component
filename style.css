@@ -5,12 +5,51 @@
     --bg-clr: #D5E1EF;
     --text-clr: #7D818C;
 }
+
 body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
     background-color: var(--bg-clr);
     color: var(--text-clr);
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Outfit', sans-serif;  
+    text-align: center;
+}
+
+body, main {
+    padding: 1em;
+}
+
+main {
+    background-color: white;
+    max-width: 15em;
+    border-radius: 1em;
+    animation: fadein 1.5s forwards;
+}
+
+main, footer {
+    opacity: 0;
+}
+
+footer {
+    animation: fadein 1s forwards;
+    animation-delay: 1s;
+}
+
+img {
+    max-width: 100%;
+    border-radius: .75em;
 }
 
 h3 {
     color: var(--title-clr);
 }
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+
